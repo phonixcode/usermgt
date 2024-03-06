@@ -39,8 +39,13 @@ Update the .env file with your database credentials and other settings. `DB_DATA
 ```shell
    php artisan migrate:fresh --seed
 ```
+6. Passport Installation
 
-6. Start the development server:
+```shell
+  php artisan passport:install
+````
+
+7. Start the development server:
 
 ```shell
    php artisan serve
